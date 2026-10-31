@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg">#FFFFFF</color>
+    <color name="widget_subtle">#555555</color>
+    <color name="widget_text">#111111</color>
+    <string name="widget_desc">Quote bergantian di home screen</string>
+    <style name="Theme.QuoteWidget" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

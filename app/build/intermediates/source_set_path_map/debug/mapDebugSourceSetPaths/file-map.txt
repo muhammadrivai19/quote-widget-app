@@ -1,0 +1,56 @@
+com.quotewidget.app-lifecycle-livedata-core-2.8.3-0 C:\Users\M. Rivai\.gradle\caches\transforms-4\0a2b1ea6b59559bac007fc75e3b02bdf\transformed\lifecycle-livedata-core-2.8.3\res
+com.quotewidget.app-ui-geometry-release-1 C:\Users\M. Rivai\.gradle\caches\transforms-4\0a9a0fa580ddb96d93359336e40ce869\transformed\ui-geometry-release\res
+com.quotewidget.app-work-runtime-ktx-2.9.0-2 C:\Users\M. Rivai\.gradle\caches\transforms-4\0accfeb9a514c1ba24b26dd7296d9bc1\transformed\work-runtime-ktx-2.9.0\res
+com.quotewidget.app-lifecycle-viewmodel-savedstate-2.8.3-3 C:\Users\M. Rivai\.gradle\caches\transforms-4\0ba06d6d65a7222a86a583896d6e6312\transformed\lifecycle-viewmodel-savedstate-2.8.3\res
+com.quotewidget.app-savedstate-ktx-1.2.1-4 C:\Users\M. Rivai\.gradle\caches\transforms-4\0dd156f94efcfdf5bcd1bb915f398016\transformed\savedstate-ktx-1.2.1\res
+com.quotewidget.app-foundation-release-5 C:\Users\M. Rivai\.gradle\caches\transforms-4\0e53d970d41532985cf194fddb26519e\transformed\foundation-release\res
+com.quotewidget.app-lifecycle-viewmodel-compose-release-6 C:\Users\M. Rivai\.gradle\caches\transforms-4\12226da80dbe6be134cf34174bd9cc5a\transformed\lifecycle-viewmodel-compose-release\res
+com.quotewidget.app-room-ktx-2.6.1-7 C:\Users\M. Rivai\.gradle\caches\transforms-4\17f0cb575d77546d3655573cbbfa823c\transformed\room-ktx-2.6.1\res
+com.quotewidget.app-ui-text-release-8 C:\Users\M. Rivai\.gradle\caches\transforms-4\1866862ad284b3720927517a6dc2eb65\transformed\ui-text-release\res
+com.quotewidget.app-material3-release-9 C:\Users\M. Rivai\.gradle\caches\transforms-4\1ce9fe7b870f5587a8b84a4f05e6b999\transformed\material3-release\res
+com.quotewidget.app-animation-core-release-10 C:\Users\M. Rivai\.gradle\caches\transforms-4\2d3a025ef0e27a7c0746b956914bd4bd\transformed\animation-core-release\res
+com.quotewidget.app-datastore-core-release-11 C:\Users\M. Rivai\.gradle\caches\transforms-4\2d9d18b5c6058c25864ecc0eccc7c31f\transformed\datastore-core-release\res
+com.quotewidget.app-material-ripple-release-12 C:\Users\M. Rivai\.gradle\caches\transforms-4\2e6c8a7ba2b2d9d592c3b12b558c17df\transformed\material-ripple-release\res
+com.quotewidget.app-datastore-release-13 C:\Users\M. Rivai\.gradle\caches\transforms-4\3822e64b083ecd52a1b56b90e27a2696\transformed\datastore-release\res
+com.quotewidget.app-work-runtime-2.9.0-14 C:\Users\M. Rivai\.gradle\caches\transforms-4\3e386735c0b529725bd481d371d70fdd\transformed\work-runtime-2.9.0\res
+com.quotewidget.app-lifecycle-process-2.8.3-15 C:\Users\M. Rivai\.gradle\caches\transforms-4\4be8ffd0afdcffd30f59bef89c4fb321\transformed\lifecycle-process-2.8.3\res
+com.quotewidget.app-savedstate-1.2.1-16 C:\Users\M. Rivai\.gradle\caches\transforms-4\4e46ff4d3842614eeee2adef6c9dbb46\transformed\savedstate-1.2.1\res
+com.quotewidget.app-foundation-layout-release-17 C:\Users\M. Rivai\.gradle\caches\transforms-4\53bd4b942cd7887443e2cbc08e575df3\transformed\foundation-layout-release\res
+com.quotewidget.app-lifecycle-runtime-ktx-release-18 C:\Users\M. Rivai\.gradle\caches\transforms-4\55005626410c808e73ea631f96834b81\transformed\lifecycle-runtime-ktx-release\res
+com.quotewidget.app-lifecycle-runtime-release-19 C:\Users\M. Rivai\.gradle\caches\transforms-4\5d1e164934fd2c3c602c0223821704e3\transformed\lifecycle-runtime-release\res
+com.quotewidget.app-profileinstaller-1.3.1-20 C:\Users\M. Rivai\.gradle\caches\transforms-4\604b2973043c36d6e07660717a512200\transformed\profileinstaller-1.3.1\res
+com.quotewidget.app-animation-release-21 C:\Users\M. Rivai\.gradle\caches\transforms-4\61eaf89649b4d812dfdd9918ce3186fa\transformed\animation-release\res
+com.quotewidget.app-lifecycle-livedata-2.8.3-22 C:\Users\M. Rivai\.gradle\caches\transforms-4\62b0297e9c899b966354c824d357c1f4\transformed\lifecycle-livedata-2.8.3\res
+com.quotewidget.app-customview-poolingcontainer-1.0.0-23 C:\Users\M. Rivai\.gradle\caches\transforms-4\6502c1114006cd670794a42993ff8ffb\transformed\customview-poolingcontainer-1.0.0\res
+com.quotewidget.app-activity-ktx-1.9.0-24 C:\Users\M. Rivai\.gradle\caches\transforms-4\66ca6c8089f33c1fc1b886dd2c090732\transformed\activity-ktx-1.9.0\res
+com.quotewidget.app-lifecycle-viewmodel-release-25 C:\Users\M. Rivai\.gradle\caches\transforms-4\6a6152b5720869879e9e5fdc75eb9b6b\transformed\lifecycle-viewmodel-release\res
+com.quotewidget.app-activity-compose-1.9.0-26 C:\Users\M. Rivai\.gradle\caches\transforms-4\76f5c90fc5a3211be92b0399e0f02fd8\transformed\activity-compose-1.9.0\res
+com.quotewidget.app-runtime-release-27 C:\Users\M. Rivai\.gradle\caches\transforms-4\7a248469f1104deeaeca19acdc9a5c41\transformed\runtime-release\res
+com.quotewidget.app-lifecycle-viewmodel-ktx-2.8.3-28 C:\Users\M. Rivai\.gradle\caches\transforms-4\8046a054b25bfdaff172efacc1235ba5\transformed\lifecycle-viewmodel-ktx-2.8.3\res
+com.quotewidget.app-ui-release-29 C:\Users\M. Rivai\.gradle\caches\transforms-4\997ba6cffb75f12f870bc15e9472c712\transformed\ui-release\res
+com.quotewidget.app-runtime-saveable-release-30 C:\Users\M. Rivai\.gradle\caches\transforms-4\a0921cfccbe7dbd23c7dbcbdb5a1554f\transformed\runtime-saveable-release\res
+com.quotewidget.app-annotation-experimental-1.4.0-31 C:\Users\M. Rivai\.gradle\caches\transforms-4\a678ec091cbcdfceec38be78789258ac\transformed\annotation-experimental-1.4.0\res
+com.quotewidget.app-sqlite-framework-2.4.0-32 C:\Users\M. Rivai\.gradle\caches\transforms-4\a9f6d262d8e55e921f271af71b193262\transformed\sqlite-framework-2.4.0\res
+com.quotewidget.app-activity-1.9.0-33 C:\Users\M. Rivai\.gradle\caches\transforms-4\b3ae30f27007f0fd58d9ef35a1caa21a\transformed\activity-1.9.0\res
+com.quotewidget.app-emoji2-1.3.0-34 C:\Users\M. Rivai\.gradle\caches\transforms-4\b58333125bf79c6aff064e1a3a1c822d\transformed\emoji2-1.3.0\res
+com.quotewidget.app-ui-unit-release-35 C:\Users\M. Rivai\.gradle\caches\transforms-4\c28c65a3429f429f627afc90b04a7b7d\transformed\ui-unit-release\res
+com.quotewidget.app-startup-runtime-1.1.1-36 C:\Users\M. Rivai\.gradle\caches\transforms-4\cb69c93074c46037d53176eded076b00\transformed\startup-runtime-1.1.1\res
+com.quotewidget.app-sqlite-2.4.0-37 C:\Users\M. Rivai\.gradle\caches\transforms-4\cfc172d07d288ba1deb9441f08344b35\transformed\sqlite-2.4.0\res
+com.quotewidget.app-core-1.13.1-38 C:\Users\M. Rivai\.gradle\caches\transforms-4\cff77eb36470f7767ed37685fe478ae2\transformed\core-1.13.1\res
+com.quotewidget.app-ui-graphics-release-39 C:\Users\M. Rivai\.gradle\caches\transforms-4\d0c8db0b27bee05e85b7bfa9453889ec\transformed\ui-graphics-release\res
+com.quotewidget.app-datastore-preferences-release-40 C:\Users\M. Rivai\.gradle\caches\transforms-4\d4161a424dfc0d03d0642365ca180aaa\transformed\datastore-preferences-release\res
+com.quotewidget.app-ui-util-release-41 C:\Users\M. Rivai\.gradle\caches\transforms-4\d7839476aad2aa78be6210b97cde7b31\transformed\ui-util-release\res
+com.quotewidget.app-core-runtime-2.2.0-42 C:\Users\M. Rivai\.gradle\caches\transforms-4\e17841fae2ea2c8a844d8e5fa7ad5a53\transformed\core-runtime-2.2.0\res
+com.quotewidget.app-ui-tooling-preview-release-43 C:\Users\M. Rivai\.gradle\caches\transforms-4\e7bf068af8ee9f9143eebd17f9b280dc\transformed\ui-tooling-preview-release\res
+com.quotewidget.app-material-icons-core-release-44 C:\Users\M. Rivai\.gradle\caches\transforms-4\ead2c3c83dd6c60bfd8b6a47f1f3209b\transformed\material-icons-core-release\res
+com.quotewidget.app-core-ktx-1.13.1-45 C:\Users\M. Rivai\.gradle\caches\transforms-4\eb5aa15cf0e16278dd51c007c6c3e00a\transformed\core-ktx-1.13.1\res
+com.quotewidget.app-lifecycle-service-2.8.3-46 C:\Users\M. Rivai\.gradle\caches\transforms-4\ed61cda2efcfbce220f7524e8f0b374a\transformed\lifecycle-service-2.8.3\res
+com.quotewidget.app-lifecycle-livedata-core-ktx-2.8.3-47 C:\Users\M. Rivai\.gradle\caches\transforms-4\f03057e8320e5996068ff00373e49dea\transformed\lifecycle-livedata-core-ktx-2.8.3\res
+com.quotewidget.app-room-runtime-2.6.1-48 C:\Users\M. Rivai\.gradle\caches\transforms-4\f197b390fdb8e00416dad349a2da26e4\transformed\room-runtime-2.6.1\res
+com.quotewidget.app-pngs-49 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\build\generated\res\pngs\debug
+com.quotewidget.app-resValues-50 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\build\generated\res\resValues\debug
+com.quotewidget.app-packageDebugResources-51 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.quotewidget.app-packageDebugResources-52 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.quotewidget.app-debug-53 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.quotewidget.app-debug-54 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\src\debug\res
+com.quotewidget.app-main-55 C:\Users\M. Rivai\OneDrive\Gambar\Roblox\Documents\Default Project\app\src\main\res

@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color widget_bg
+color widget_subtle
+color widget_text
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable widget_bg
+drawable widget_bg_blue
+drawable widget_bg_dark
+drawable widget_bg_light
+drawable widget_bg_sunset
+id btn_next
+id btn_prev
+id quote_body
+id tv_author
+id tv_quote
+id widget_root
+layout widget_quote
+mipmap ic_launcher
+mipmap ic_launcher_round
+string widget_desc
+style Theme.QuoteWidget
+xml widget_info

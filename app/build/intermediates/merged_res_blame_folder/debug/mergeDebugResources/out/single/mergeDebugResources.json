@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_batu.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_batu.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_sunset.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_sunset.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_tinta.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_tinta.xml"
+    },
+    {
+        "merged": "com.quotewidget.app-debug-53:/drawable_ic_viewer_expand.xml.flat",
+        "source": "com.quotewidget.app-main-55:/drawable/ic_viewer_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_light.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\layout_widget_quote_mono.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\layout\\widget_quote_mono.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\layout_widget_quote_sans.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\layout\\widget_quote_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\xml_widget_info.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\xml\\widget_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_kertas.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_kertas.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_ic_chev_right.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\ic_chev_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_ic_chev_left.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\ic_chev_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_blue.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\layout_widget_quote_rounded.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\layout\\widget_quote_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\layout_widget_quote.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\layout\\widget_quote.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-debug-53:\\drawable_widget_bg_dark.xml.flat",
+        "source": "C:\\Users\\M. Rivai\\.gradle\\daemon\\8.7\\com.quotewidget.app-main-55:\\drawable\\widget_bg_dark.xml"
+    }
+]

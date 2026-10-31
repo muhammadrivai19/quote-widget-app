@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color widget_bg
+color widget_subtle
+color widget_text
+drawable ic_chev_left
+drawable ic_chev_right
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_viewer_expand
+drawable widget_bg
+drawable widget_bg_batu
+drawable widget_bg_blue
+drawable widget_bg_dark
+drawable widget_bg_kertas
+drawable widget_bg_light
+drawable widget_bg_sunset
+drawable widget_bg_tinta
+id btn_next
+id btn_prev
+id quote_body
+id tv_author
+id tv_mark
+id tv_quote
+id widget_root
+layout widget_quote
+layout widget_quote_mono
+layout widget_quote_rounded
+layout widget_quote_sans
+mipmap ic_launcher
+mipmap ic_launcher_round
+string widget_desc
+style Theme.QuoteWidget
+xml widget_info
