@@ -64,6 +64,11 @@ fun SettingsScreen(
     onFont: (String) -> Unit,
     onBack: () -> Unit
 ) {
+    val theme = themeById(themeId)
+    val eff = effectiveTextArgb(theme, textHex)
+    val textColor = Color(eff)
+    val accentColor = Color(theme.accentColor)
+
     BackHandler(onBack = onBack)
     Scaffold(
         topBar = {
@@ -73,44 +78,62 @@ fun SettingsScreen(
                     IconButton(onClick = onBack) {
                         Icon(Icons.Default.ArrowBack, contentDescription = "Kembali")
                     }
-                }
+                },
+                colors = androidx.compose.material3.TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color(theme.bgColor),
+                    titleContentColor = textColor,
+                    navigationIconContentColor = textColor
+                )
             )
-        }
+        },
+        containerColor = Color(theme.bgColor)
     ) { pad ->
         Column(Modifier.fillMaxSize().padding(pad).padding(16.dp).verticalScroll(rememberScrollState())) {
-            Text("Interval pergantian")
+            Text("Interval pergantian", color = textColor, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
             SettingsStore.INTERVALS.forEach { m ->
                 Row(
                     Modifier.fillMaxWidth().clickable { onInterval(m) }.padding(vertical = 8.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    RadioButton(selected = m == interval, onClick = { onInterval(m) })
+                    RadioButton(
+                        selected = m == interval, 
+                        onClick = { onInterval(m) },
+                        colors = androidx.compose.material3.RadioButtonDefaults.colors(selectedColor = accentColor)
+                    )
                     Spacer(Modifier.width(8.dp))
-                    Text(label(m))
+                    Text(label(m), color = textColor)
                 }
             }
             Spacer(Modifier.height(16.dp))
-            Text("Urutan quote")
+            Text("Urutan quote", color = textColor, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
             Row(
                 Modifier.fillMaxWidth().clickable { onOrder(SettingsStore.SEQUENTIAL) }.padding(vertical = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                RadioButton(selected = order == SettingsStore.SEQUENTIAL, onClick = { onOrder(SettingsStore.SEQUENTIAL) })
+                RadioButton(
+                    selected = order == SettingsStore.SEQUENTIAL, 
+                    onClick = { onOrder(SettingsStore.SEQUENTIAL) },
+                    colors = androidx.compose.material3.RadioButtonDefaults.colors(selectedColor = accentColor)
+                )
                 Spacer(Modifier.width(8.dp))
-                Text("Berurutan")
+                Text("Berurutan", color = textColor)
             }
             Row(
                 Modifier.fillMaxWidth().clickable { onOrder(SettingsStore.RANDOM) }.padding(vertical = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                RadioButton(selected = order == SettingsStore.RANDOM, onClick = { onOrder(SettingsStore.RANDOM) })
+                RadioButton(
+                    selected = order == SettingsStore.RANDOM, 
+                    onClick = { onOrder(SettingsStore.RANDOM) },
+                    colors = androidx.compose.material3.RadioButtonDefaults.colors(selectedColor = accentColor)
+                )
                 Spacer(Modifier.width(8.dp))
-                Text("Acak")
+                Text("Acak", color = textColor)
             }
             Spacer(Modifier.height(16.dp))
-            Text("Tema (widget + viewer)")
+            Text("Tema (widget + viewer)", color = textColor, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
             QuoteThemes.chunked(2).forEach { row ->
                 Row(Modifier.fillMaxWidth()) {
@@ -125,15 +148,19 @@ fun SettingsScreen(
                 }
             }
             Spacer(Modifier.height(16.dp))
-            Text("Warna teks")
+            Text("Warna teks", color = textColor, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
             Row(
                 Modifier.fillMaxWidth().clickable { onTextColor(null) }.padding(vertical = 4.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                RadioButton(selected = textHex == null, onClick = { onTextColor(null) })
+                RadioButton(
+                    selected = textHex == null, 
+                    onClick = { onTextColor(null) },
+                    colors = androidx.compose.material3.RadioButtonDefaults.colors(selectedColor = accentColor)
+                )
                 Spacer(Modifier.width(8.dp))
-                Text("Default tema")
+                Text("Default tema", color = textColor)
             }
             TextColorOptions.filter { it.hex != null }.chunked(4).forEach { row ->
                 Row(Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
@@ -151,7 +178,7 @@ fun SettingsScreen(
                                     .background(c)
                                     .border(
                                         if (sel) 3.dp else 1.dp,
-                                        if (sel) Color(0xFFB8A15A) else Color.Gray.copy(alpha = 0.5f),
+                                        if (sel) accentColor else Color.Gray.copy(alpha = 0.5f),
                                         CircleShape
                                     ),
                                 contentAlignment = Alignment.Center
@@ -159,18 +186,17 @@ fun SettingsScreen(
                                 if (sel) Icon(Icons.Default.Check, contentDescription = "Dipilih", tint = if (contrastRatio(opt.argb, 0xFFFFFFFF) > 2.5) Color.White else Color.Black)
                             }
                             Spacer(Modifier.height(4.dp))
-                            Text(opt.name, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, textAlign = TextAlign.Center)
+                            Text(opt.name, color = textColor, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, textAlign = TextAlign.Center)
                         }
                     }
                     repeat(4 - row.size) { Spacer(Modifier.weight(1f)) }
                 }
             }
-            val theme = themeById(themeId)
-            val eff = effectiveTextArgb(theme, textHex)
-            val ratio = contrastRatio(eff, theme.bgColor)
             Spacer(Modifier.height(4.dp))
+            val ratio = contrastRatio(eff, theme.bgColor)
             Text(
                 "Kontras %.1f:1".format(ratio),
+                color = textColor.copy(alpha = 0.7f),
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
             if (ratio < 4.5) {
@@ -182,7 +208,7 @@ fun SettingsScreen(
                 )
             }
             Spacer(Modifier.height(16.dp))
-            Text("Font")
+            Text("Font", color = textColor, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
             QuoteFonts.forEach { f ->
                 val sel = f.id == fontId
@@ -191,33 +217,37 @@ fun SettingsScreen(
                         .fillMaxWidth()
                         .padding(vertical = 4.dp)
                         .clip(RoundedCornerShape(12.dp))
-                        .background(if (sel) Color(0xFFB8A15A).copy(alpha = 0.15f) else Color.Transparent)
+                        .background(if (sel) accentColor.copy(alpha = 0.15f) else Color.Transparent)
                         .border(
                             if (sel) 2.dp else 1.dp,
-                            if (sel) Color(0xFFB8A15A) else Color.Gray.copy(alpha = 0.3f),
+                            if (sel) accentColor else Color.Gray.copy(alpha = 0.3f),
                             RoundedCornerShape(12.dp)
                         )
                         .clickable { onFont(f.id) }
                         .padding(12.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    RadioButton(selected = sel, onClick = { onFont(f.id) })
+                    RadioButton(
+                        selected = sel, 
+                        onClick = { onFont(f.id) },
+                        colors = androidx.compose.material3.RadioButtonDefaults.colors(selectedColor = accentColor)
+                    )
                     Spacer(Modifier.width(8.dp))
                     Column(Modifier.weight(1f)) {
-                        Text(f.name, fontWeight = FontWeight.Bold)
+                        Text(f.name, color = textColor, fontWeight = FontWeight.Bold)
                         Spacer(Modifier.height(2.dp))
                         Text(
                             "Hidup itu 10% apa yang terjadi padamu.",
                             fontFamily = quoteFontFamily(f.id),
                             fontWeight = if (isSansBold(f.id)) FontWeight.Bold else null,
                             fontSize = 15.sp,
-                            color = Color(eff)
+                            color = textColor
                         )
                     }
                 }
             }
             Spacer(Modifier.height(16.dp))
-            Text("Android hemat baterai, update bisa meleset beberapa menit. Normal.", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+            Text("Android hemat baterai, update bisa meleset beberapa menit. Normal.", color = textColor.copy(alpha = 0.6f), style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
 }
